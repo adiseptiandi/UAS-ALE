@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Form1
+Partial Class TambahKurang
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -347,7 +347,7 @@ Partial Class Form1
         Me.clear.Text = "Clear"
         Me.clear.UseVisualStyleBackColor = True
         '
-        'Form1
+        'TambahKurang
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -389,8 +389,8 @@ Partial Class Form1
         Me.Controls.Add(Me.matA3)
         Me.Controls.Add(Me.matA2)
         Me.Controls.Add(Me.matA1)
-        Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Name = "TambahKurang"
+        Me.Text = "Penjumlahan dan Pengurangan Matriks 3x3"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

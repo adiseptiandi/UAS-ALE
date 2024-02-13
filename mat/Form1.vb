@@ -1,6 +1,6 @@
 ﻿Imports System.Drawing.Drawing2D
 
-Public Class Form1
+Public Class TambahKurang
     Private Sub ProsesOperasi()
         ' Matriks matA
         Dim matA(2, 2) As Integer

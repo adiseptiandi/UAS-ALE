@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Form2
+Partial Class Determinan
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -138,7 +138,7 @@ Partial Class Form2
         Me.clear.Text = "Clear"
         Me.clear.UseVisualStyleBackColor = True
         '
-        'Form2
+        'Determinan
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -156,8 +156,8 @@ Partial Class Form2
         Me.Controls.Add(Me.matA3)
         Me.Controls.Add(Me.matA2)
         Me.Controls.Add(Me.matA1)
-        Me.Name = "Form2"
-        Me.Text = "Form1"
+        Me.Name = "Determinan"
+        Me.Text = "Determinan Ekspansi Kofaktor"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
