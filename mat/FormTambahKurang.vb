@@ -1,6 +1,17 @@
 ﻿Imports System.Drawing.Drawing2D
 
 Public Class TambahKurang
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        hasil1.Enabled = False
+        hasil2.Enabled = False
+        hasil3.Enabled = False
+        hasil4.Enabled = False
+        hasil5.Enabled = False
+        hasil6.Enabled = False
+        hasil7.Enabled = False
+        hasil8.Enabled = False
+        hasil9.Enabled = False
+    End Sub
     Private Sub ProsesOperasi()
         ' Matriks matA
         Dim matA(2, 2) As Integer
@@ -56,38 +67,6 @@ Public Class TambahKurang
         ProsesOperasi()
     End Sub
 
-    Private Sub detA_Click(sender As Object, e As EventArgs) Handles detA.Click
-        Dim matA(2, 2) As Integer
-        matA(0, 0) = Val(matA1.Text)
-        matA(0, 1) = Val(matA2.Text)
-        matA(0, 2) = Val(matA3.Text)
-        matA(1, 0) = Val(matA4.Text)
-        matA(1, 1) = Val(matA5.Text)
-        matA(1, 2) = Val(matA6.Text)
-        matA(2, 0) = Val(matA7.Text)
-        matA(2, 1) = Val(matA8.Text)
-        matA(2, 2) = Val(matA9.Text)
-
-        Dim determinanA As Integer = (matA(0, 0) * 1 * (matA(1, 1) * matA(2, 2) - matA(1, 2) * matA(2, 1))) + (matA(0, 1) * -1 * (matA(1, 0) * matA(2, 2) - matA(1, 2) * matA(2, 0))) + (matA(0, 2) * 1 * (matA(1, 0) * matA(2, 1) - matA(1, 1) * matA(2, 0)))
-        hasilDetA.Text = determinanA.ToString()
-    End Sub
-
-    Private Sub detB_Click(sender As Object, e As EventArgs) Handles detB.Click
-        Dim matB(2, 2) As Integer
-        matB(0, 0) = Val(matB1.Text)
-        matB(0, 1) = Val(matB2.Text)
-        matB(0, 2) = Val(matB3.Text)
-        matB(1, 0) = Val(matB4.Text)
-        matB(1, 1) = Val(matB5.Text)
-        matB(1, 2) = Val(matB6.Text)
-        matB(2, 0) = Val(matB7.Text)
-        matB(2, 1) = Val(matB8.Text)
-        matB(2, 2) = Val(matB9.Text)
-
-        Dim determinanB As Integer = (matB(0, 0) * 1 * (matB(1, 1) * matB(2, 2) - matB(1, 2) * matB(2, 1))) + (matB(0, 1) * -1 * (matB(1, 0) * matB(2, 2) - matB(1, 2) * matB(2, 0))) + (matB(0, 2) * 1 * (matB(1, 0) * matB(2, 1) - matB(1, 1) * matB(2, 0)))
-        hasilDetB.Text = determinanB.ToString()
-    End Sub
-
     Private Sub clear_Click(sender As Object, e As EventArgs) Handles clear.Click
         For Each ctrl As Control In Me.Controls
             If TypeOf ctrl Is TextBox Then
@@ -97,15 +76,24 @@ Public Class TambahKurang
         ComboBox1.Text = "Operasi"
     End Sub
 
-    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        hasil1.Enabled = False
-        hasil2.Enabled = False
-        hasil3.Enabled = False
-        hasil4.Enabled = False
-        hasil5.Enabled = False
-        hasil6.Enabled = False
-        hasil7.Enabled = False
-        hasil8.Enabled = False
-        hasil9.Enabled = False
+    Private Sub KembaliKeMenuUtamaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles KembaliKeMenuUtamaToolStripMenuItem.Click
+        MenuUtama.Show()
+        Me.Hide()
+    End Sub
+    Private Sub DeterminanMatriks3x3MetodeEkspansiKofaktorToolStripMenuItem_Click_1(sender As Object, e As EventArgs) Handles DeterminanMatriks3x3MetodeEkspansiKofaktorToolStripMenuItem.Click
+        Determinan.Show()
+        Me.Hide()
+    End Sub
+    Private Sub TentangToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TentangToolStripMenuItem.Click
+        Tentang.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub KeluarToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles KeluarToolStripMenuItem.Click
+        Dim result As DialogResult = MessageBox.Show("Apakah Anda yakin ingin menutup aplikasi?", "Konfirmasi", MessageBoxButtons.YesNo, MessageBoxIcon.Question)
+
+        If result = DialogResult.Yes Then
+            Application.Exit()
+        End If
     End Sub
 End Class
