@@ -37,9 +37,9 @@ Partial Class Determinan
         Me.clear = New System.Windows.Forms.Button()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.MenuToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.KembaliKeMenuUtamaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PertambahandanPenguranganDuaMatriks3x3ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TransformasiVektorLinierToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.KembaliKeMenuUtamaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TentangToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.KeluarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Label4 = New System.Windows.Forms.Label()
@@ -164,12 +164,6 @@ Partial Class Determinan
         Me.MenuToolStripMenuItem.Size = New System.Drawing.Size(60, 24)
         Me.MenuToolStripMenuItem.Text = "Menu"
         '
-        'KembaliKeMenuUtamaToolStripMenuItem
-        '
-        Me.KembaliKeMenuUtamaToolStripMenuItem.Name = "KembaliKeMenuUtamaToolStripMenuItem"
-        Me.KembaliKeMenuUtamaToolStripMenuItem.Size = New System.Drawing.Size(408, 26)
-        Me.KembaliKeMenuUtamaToolStripMenuItem.Text = "Kembali ke menu utama"
-        '
         'PertambahandanPenguranganDuaMatriks3x3ToolStripMenuItem
         '
         Me.PertambahandanPenguranganDuaMatriks3x3ToolStripMenuItem.Name = "PertambahandanPenguranganDuaMatriks3x3ToolStripMenuItem"
@@ -181,6 +175,12 @@ Partial Class Determinan
         Me.TransformasiVektorLinierToolStripMenuItem1.Name = "TransformasiVektorLinierToolStripMenuItem1"
         Me.TransformasiVektorLinierToolStripMenuItem1.Size = New System.Drawing.Size(408, 26)
         Me.TransformasiVektorLinierToolStripMenuItem1.Text = "Transformasi Vektor Linier"
+        '
+        'KembaliKeMenuUtamaToolStripMenuItem
+        '
+        Me.KembaliKeMenuUtamaToolStripMenuItem.Name = "KembaliKeMenuUtamaToolStripMenuItem"
+        Me.KembaliKeMenuUtamaToolStripMenuItem.Size = New System.Drawing.Size(408, 26)
+        Me.KembaliKeMenuUtamaToolStripMenuItem.Text = "Kembali ke menu utama"
         '
         'TentangToolStripMenuItem
         '

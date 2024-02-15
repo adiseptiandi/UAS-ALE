@@ -4,10 +4,6 @@
         Me.Hide()
     End Sub
 
-    Private Sub TransformasiVektorLinierToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TransformasiVektorLinierToolStripMenuItem.Click
-
-    End Sub
-
     Private Sub DeterminanMatriks3x3MetodeEkspansiKofaktorToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DeterminanMatriks3x3MetodeEkspansiKofaktorToolStripMenuItem.Click
         Determinan.Show()
         Me.Hide()

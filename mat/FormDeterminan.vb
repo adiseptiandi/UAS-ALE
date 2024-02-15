@@ -54,4 +54,5 @@ Public Class Determinan
             Application.Exit()
         End If
     End Sub
+
 End Class
