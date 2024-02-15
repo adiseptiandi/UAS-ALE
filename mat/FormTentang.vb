@@ -14,7 +14,7 @@
         Me.Hide()
     End Sub
     Private Sub TransformasiVektorLinierToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TransformasiVektorLinierToolStripMenuItem.Click
-        Form1.Show()
+        Transformasi.Show()
         Me.Hide()
     End Sub
     Private Sub KeluarToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles KeluarToolStripMenuItem.Click

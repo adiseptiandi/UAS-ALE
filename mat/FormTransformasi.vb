@@ -1,4 +1,4 @@
-﻿Public Class Form1
+﻿Public Class Transformasi
     Private Sub TentangToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TentangToolStripMenuItem.Click
         Tentang.Show()
         Me.Hide()

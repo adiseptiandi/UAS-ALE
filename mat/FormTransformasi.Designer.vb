@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class Transformasi
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -27,8 +27,8 @@ Partial Class Form1
         Me.PertambahandanPenguranganDuaMatriks3x3ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DeterminanMatriks3x3MetodeEkspansiKofaktorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.KembaliKeMenuUtamaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.KeluarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TentangToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.KeluarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -67,26 +67,26 @@ Partial Class Form1
         Me.KembaliKeMenuUtamaToolStripMenuItem.Size = New System.Drawing.Size(426, 26)
         Me.KembaliKeMenuUtamaToolStripMenuItem.Text = "Kembali ke menu utama"
         '
-        'KeluarToolStripMenuItem
-        '
-        Me.KeluarToolStripMenuItem.Name = "KeluarToolStripMenuItem"
-        Me.KeluarToolStripMenuItem.Size = New System.Drawing.Size(65, 24)
-        Me.KeluarToolStripMenuItem.Text = "Keluar"
-        '
         'TentangToolStripMenuItem
         '
         Me.TentangToolStripMenuItem.Name = "TentangToolStripMenuItem"
         Me.TentangToolStripMenuItem.Size = New System.Drawing.Size(76, 24)
         Me.TentangToolStripMenuItem.Text = "Tentang"
         '
-        'Form1
+        'KeluarToolStripMenuItem
+        '
+        Me.KeluarToolStripMenuItem.Name = "KeluarToolStripMenuItem"
+        Me.KeluarToolStripMenuItem.Size = New System.Drawing.Size(65, 24)
+        Me.KeluarToolStripMenuItem.Text = "Keluar"
+        '
+        'Transformasi
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.MenuStrip1)
-        Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Name = "Transformasi"
+        Me.Text = "Transformasi Vektor Linier"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         Me.ResumeLayout(False)

@@ -42,7 +42,7 @@ Public Class Determinan
         Me.Hide()
     End Sub
     Private Sub TransformasiVektorLinierToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TransformasiVektorLinierToolStripMenuItem1.Click
-        Form1.Show()
+        Transformasi.Show()
         Me.Hide()
     End Sub
 

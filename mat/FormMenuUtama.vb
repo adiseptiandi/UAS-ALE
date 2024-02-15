@@ -8,7 +8,7 @@
         Me.Hide()
     End Sub
     Private Sub BtnVector_Click(sender As Object, e As EventArgs) Handles BtnVector.Click
-        Form1.Show()
+        Transformasi.Show()
         Me.Hide()
     End Sub
 
@@ -27,7 +27,7 @@
         Me.Hide()
     End Sub
     Private Sub TransformasiVektorLinierToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TransformasiVektorLinierToolStripMenuItem.Click
-        Form1.Show()
+        Transformasi.Show()
         Me.Hide()
     End Sub
 
