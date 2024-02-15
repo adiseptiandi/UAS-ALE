@@ -88,6 +88,10 @@ Public Class TambahKurang
         Tentang.Show()
         Me.Hide()
     End Sub
+    Private Sub TransformasiVektorLinierToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TransformasiVektorLinierToolStripMenuItem1.Click
+        Form1.Show()
+        Me.Hide()
+    End Sub
 
     Private Sub KeluarToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles KeluarToolStripMenuItem.Click
         Dim result As DialogResult = MessageBox.Show("Apakah Anda yakin ingin menutup aplikasi?", "Konfirmasi", MessageBoxButtons.YesNo, MessageBoxIcon.Question)

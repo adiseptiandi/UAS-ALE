@@ -7,6 +7,10 @@
         Determinan.Show()
         Me.Hide()
     End Sub
+    Private Sub BtnVector_Click(sender As Object, e As EventArgs) Handles BtnVector.Click
+        Form1.Show()
+        Me.Hide()
+    End Sub
 
     Private Sub PertambahandanPenguranganDuaMatriks3x3ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PertambahandanPenguranganDuaMatriks3x3ToolStripMenuItem.Click
         TambahKurang.Show()
@@ -20,6 +24,10 @@
 
     Private Sub TentangToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TentangToolStripMenuItem.Click
         Tentang.Show()
+        Me.Hide()
+    End Sub
+    Private Sub TransformasiVektorLinierToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TransformasiVektorLinierToolStripMenuItem.Click
+        Form1.Show()
         Me.Hide()
     End Sub
 
