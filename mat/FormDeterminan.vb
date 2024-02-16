@@ -1,7 +1,4 @@
-﻿Imports System.Windows.Forms.VisualStyles.VisualStyleElement
-Imports System.Drawing.Drawing2D
-
-Public Class Determinan
+﻿Public Class Determinan
     Private Sub Determinan_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         hasilDetA.Enabled = False
     End Sub
@@ -36,7 +33,6 @@ Public Class Determinan
         MenuUtama.Show()
         Me.Hide()
     End Sub
-
     Private Sub PertambahandanPenguranganDuaMatriks3x3ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PertambahandanPenguranganDuaMatriks3x3ToolStripMenuItem.Click
         TambahKurang.Show()
         Me.Hide()
@@ -45,12 +41,10 @@ Public Class Determinan
         Transformasi.Show()
         Me.Hide()
     End Sub
-
     Private Sub TentangToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TentangToolStripMenuItem.Click
         Tentang.Show()
         Me.Hide()
     End Sub
-
     Private Sub KeluarToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles KeluarToolStripMenuItem.Click
         Dim result As DialogResult = MessageBox.Show("Apakah Anda yakin ingin menutup aplikasi?", "Konfirmasi", MessageBoxButtons.YesNo, MessageBoxIcon.Question)
 

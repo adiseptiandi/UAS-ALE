@@ -71,7 +71,6 @@
         Determinan.Show()
         Me.Hide()
     End Sub
-
     Private Sub PertambahandanPenguranganDuaMatriks3x3ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PertambahandanPenguranganDuaMatriks3x3ToolStripMenuItem.Click
         TambahKurang.Show()
         Me.Hide()

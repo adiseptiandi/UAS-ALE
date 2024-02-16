@@ -1,6 +1,4 @@
-﻿Imports System.Drawing.Drawing2D
-
-Public Class TambahKurang
+﻿Public Class TambahKurang
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         hasil1.Enabled = False
         hasil2.Enabled = False
@@ -62,7 +60,6 @@ Public Class TambahKurang
         hasil8.Text = hasilMatriks(2, 1).ToString()
         hasil9.Text = hasilMatriks(2, 2).ToString()
     End Sub
-
     Private Sub samaDengan_Click(sender As Object, e As EventArgs) Handles samaDengan.Click
         If ComboBox1.SelectedIndex = -1 Then ' Jika tidak ada opsi yang dipilih
             MessageBox.Show("Silakan pilih operasi penambahan atau pengurangan.", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Warning)
@@ -70,7 +67,6 @@ Public Class TambahKurang
             ProsesOperasi()
         End If
     End Sub
-
     Private Sub clear_Click(sender As Object, e As EventArgs) Handles clear.Click
         For Each ctrl As Control In Me.Controls
             If TypeOf ctrl Is TextBox Then
@@ -79,7 +75,6 @@ Public Class TambahKurang
         Next
         ComboBox1.Text = "Operasi"
     End Sub
-
     Private Sub KembaliKeMenuUtamaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles KembaliKeMenuUtamaToolStripMenuItem.Click
         MenuUtama.Show()
         Me.Hide()
@@ -96,7 +91,6 @@ Public Class TambahKurang
         Transformasi.Show()
         Me.Hide()
     End Sub
-
     Private Sub KeluarToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles KeluarToolStripMenuItem.Click
         Dim result As DialogResult = MessageBox.Show("Apakah Anda yakin ingin menutup aplikasi?", "Konfirmasi", MessageBoxButtons.YesNo, MessageBoxIcon.Question)
 
