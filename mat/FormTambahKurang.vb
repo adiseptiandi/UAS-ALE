@@ -64,7 +64,11 @@ Public Class TambahKurang
     End Sub
 
     Private Sub samaDengan_Click(sender As Object, e As EventArgs) Handles samaDengan.Click
-        ProsesOperasi()
+        If ComboBox1.SelectedIndex = -1 Then ' Jika tidak ada opsi yang dipilih
+            MessageBox.Show("Silakan pilih operasi penambahan atau pengurangan.", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+        Else
+            ProsesOperasi()
+        End If
     End Sub
 
     Private Sub clear_Click(sender As Object, e As EventArgs) Handles clear.Click
